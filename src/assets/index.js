@@ -12,7 +12,7 @@ import headset1 from './headset-1.png';
 import headset2 from './headset-2.png';
 import headset3 from './headset-3.png';
 import headset4 from './headset-4.png';
-import radialBg from './radial-bg.svg';
+// import radialBg from './radial-bg.svg';
 import videoBg from './video-bg.png';
 import logo from './logo.svg';
 
@@ -32,7 +32,7 @@ const images = {
     headset2,
     headset3,
     headset4,
-    radialBg,
+    // radialBg,
     videoBg,
     logo,
 }

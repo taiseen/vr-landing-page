@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}',
+    // './public/index.html'
+  ],
   theme: {
     fontFamily: {
       primary: 'Orbitron, sans-serif',
@@ -26,13 +29,13 @@ module.exports = {
         transparent: 'transparent',
       },
       boxShadow: {
-        primary: '0px 4px 40px rgba(0, 0, 0, 0.03)',
+        primary: '0px 4px 40px rgba(0, 0, 0, .3)',
       },
       backgroundImage: {
-        radialBgCircle: "url('/src/assets/img/radial-bg.svg')",
-        videoBg: "url('/src/assets/img/video-bg.png')",
-        circle: "url('/src/assets/img/circle.png')",
-        explore: "url('/src/assets/img/explore.png')",
+        radialBgCircle: "url('/src/assets/radial-bg.svg')",
+        videoBg: "url('/src/assets/video-bg.png')",
+        circle: "url('/src/assets/circle.png')",
+        explore: "url('/src/assets/explore.png')",
       },
     },
   },

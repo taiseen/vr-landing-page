@@ -17,10 +17,31 @@
   a {
     @apply text-[15px] font-medium;
   }
-  .nav-link {
+  .navLink {
     @apply after:w-6 after:h-1 after:absolute after:left-0 after:-bottom-2 after:rounded-full after:bg-transparent after:hover:bg-[#b936f5] after:transition-all after:duration-300 relative;
   }
   .btn {
-    @apply font-medium h-12 px-8 bg-gradient-to-r from-[#b936f5] to-[#f1006c] rounded text-[15px] hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c] outline-none flex items-center justify-center cursor-pointer;
+    @apply font-medium h-12 px-8 rounded text-[15px] outline-none flex items-center justify-center cursor-pointer
+          bg-gradient-to-r       from-[#b936f5]       to-[#f1006c] 
+    hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c];
   }
+}
+
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius   : 2px;
+  background-color: #333;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #444;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius   : 5px;
+  background-color: #000;
 }
