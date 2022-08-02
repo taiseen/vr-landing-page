@@ -7,7 +7,7 @@ const Users = () => {
   return (
     <div className='flex flex-col lg:flex-row justify-center lg:justify-start items-center space-x-5 space-y-2 lg:skew-y-0'>
 
-      {/* 🟨🟨🟨 User Images... */}
+      {/* 🟨🟨🟨 User Images...🟨🟨🟨 */}
       <div className='flex -space-x-2'>
 
         <div className='w-12 h-12 rounded-full'>
@@ -28,7 +28,7 @@ const Users = () => {
 
       </div>
 
-      {/* 🟨🟨🟨 animation + text  */}
+      {/* 🟨🟨🟨 animation + text 🟨🟨🟨 */}
       <div className='flex items-center space-x-2 font-secondary font-medium'>
         <BsFillCircleFill className='text-green-500 animate-pulse' />
         <p>400k people online</p>

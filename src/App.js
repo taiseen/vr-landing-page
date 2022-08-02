@@ -1,4 +1,4 @@
-import { Banner, Header, NavMobile } from './components';
+import { Banner, Experience, Explore, Header, Headsets, NavMobile, Testimonial, Video } from './components';
 import { useState } from 'react';
 
 
@@ -21,17 +21,27 @@ const App = () => {
     '>
 
       <Header setNavMobile={setNavMobile} />
+
       <Banner />
 
       {
-        // for mobile navigation sideBar...
+        // For 📱 Mobile Navigation SideBar...
         <div className={`${navMobile ? 'right-0' : '-right-full'} 
-          fixed top-0 bottom-0 w-48 transition-all `}
+          fixed top-0 bottom-0 w-48 transition-all`}
         >
           <NavMobile setNavMobile={setNavMobile} />
         </div>
       }
 
+      <Experience />
+
+      <Video />
+
+      <Headsets />
+
+      <Testimonial />
+
+      <Explore />
 
     </main>
   );

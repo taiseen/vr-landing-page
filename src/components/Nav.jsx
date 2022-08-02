@@ -5,8 +5,8 @@ const Nav = () => {
 
   return (
 
-    // hidden  = hide in mobile screen... but 
-    // lg:flex = display in large screen...
+    // 🟨 hidden  = hide in 📱 mobile screen... but 
+    // 🟨 lg:flex = display in 💻 large screen...
     <nav className='hidden lg:flex'>
 
       <ul className='flex items-center space-x-12 font-secondary'>

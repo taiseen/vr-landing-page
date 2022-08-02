@@ -28,20 +28,33 @@
 }
 
 
+
+/* Custom ScrollBar */
+
 html::-webkit-scrollbar {
   width: 8px;
 }
 
 html::-webkit-scrollbar-thumb {
   border-radius   : 2px;
-  background-color: #333;
+  background-image: linear-gradient(to bottom right, #b936f5, #f1006c);
 }
 
 html::-webkit-scrollbar-thumb:hover {
-  background-color: #444;
+  background-image: linear-gradient(to bottom right, #f1006c, #b936f5);
 }
 
 html::-webkit-scrollbar-track {
   border-radius   : 5px;
   background-color: #000;
 }
+
+
+
+
+/* Swiper Pagination Custom Coloring... Only Bullate Points... */
+
+.swiper-pagination-bullet {
+  background-color: rgb(153, 45, 45);
+}
+
