@@ -4,7 +4,7 @@ import { headSet } from '../constants/data';
 const Headsets = () => {
 
   return (
-    <section className='py-12 lg:py-24'>
+    <section className='py-12 lg:py-24' id='features'>
 
       <div className='container mx-auto'>
 

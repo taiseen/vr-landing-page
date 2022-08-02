@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
-    // './public/index.html'
+    './public/index.html'
   ],
   theme: {
     fontFamily: {
@@ -30,6 +30,7 @@ module.exports = {
       },
       boxShadow: {
         primary: '0px 4px 40px rgba(0, 0, 0, .3)',
+        full: '0 0 0 100vw rgba(0, 0, 0, .7)'
       },
       backgroundImage: {
         radialBgCircle: "url('/src/assets/radial-bg.svg')",

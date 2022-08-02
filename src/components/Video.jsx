@@ -10,7 +10,7 @@ const Video = () => {
 
 
   return (
-    <section className='bg-[#534686]/30 py-8'>
+    <section className='bg-[#534686]/30 py-8' id='company'>
 
       <div className='container mx-auto'>
 

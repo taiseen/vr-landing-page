@@ -7,6 +7,7 @@ const Header = ({ setNavMobile }) => {
 
   return (
     <header
+      id='home'
       className='py-6'
       data-aos='fade-down'
       data-delay='2000'

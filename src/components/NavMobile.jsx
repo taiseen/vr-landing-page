@@ -1,8 +1,14 @@
-import React from 'react';
 import { IoClose } from 'react-icons/io5';
 
 
 const NavMobile = ({ setNavMobile }) => {
+
+  const links = [
+    { linkName: 'Home', path: '#home' },
+    { linkName: 'Company', path: '#company' },
+    { linkName: 'Features', path: '#features' },
+    { linkName: 'Sign up', path: '#signUp' },
+  ]
 
   return (
 
@@ -17,12 +23,22 @@ const NavMobile = ({ setNavMobile }) => {
       />
 
       <ul className='flex flex-col items-center justify-center space-y-6 h-full font-secondary'>
-
-        <li className='text-lg'><a href="/#">Home</a></li>
-        <li className='text-lg'><a href="/#">Company</a></li>
-        <li className='text-lg'><a href="/#">Features</a></li>
-        <li className='btn'><a href="/#">Sign up</a></li>
-
+        {
+          links.map((link, i) => (
+            (i !== links.length - 1)
+              ? <li
+                className='text-lg'
+                onClick={() => setNavMobile(false)}
+              >
+                <a href={link.path}>{link.linkName}</a>
+              </li>
+              : <li className='btn'
+                onClick={() => setNavMobile(false)}
+              >
+                <a href={link.path}>{link.linkName}</a>
+              </li>
+          ))
+        }
       </ul>
 
     </nav>

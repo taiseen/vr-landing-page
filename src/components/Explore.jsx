@@ -3,7 +3,7 @@ import React from 'react';
 const Explore = () => {
 
   return (
-    <section className='min-h-[400px] mb-8 lg:mb-12'>
+    <section className='min-h-[400px] mb-8 lg:mb-12' id='signUp'>
 
       <div className='container mx-auto h-full'>
 
@@ -30,7 +30,7 @@ const Explore = () => {
               placeholder='Your Email'
               className='py-3 px-4 outline-none rounded-md bg-gradient-to-t from-[#341D38] to-[#271223]'
             />
-            <button className='btn'>Start</button>
+            <button className='btn'>Send</button>
           </form>
         </div>
 
