@@ -5,7 +5,10 @@ import images from '../assets';
 const Users = () => {
 
   return (
-    <div className='flex flex-col lg:flex-row justify-center lg:justify-start items-center space-x-5 space-y-2 lg:skew-y-0'>
+    <div className='flex flex-col lg:flex-row justify-center lg:justify-start items-center space-x-5 space-y-2 lg:space-y-0'
+      data-aos='fade-down'
+      data-aos-delay='900'
+    >
 
       {/* 🟨🟨🟨 User Images...🟨🟨🟨 */}
       <div className='flex -space-x-2'>

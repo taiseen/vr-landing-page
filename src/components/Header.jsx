@@ -6,7 +6,12 @@ import images from '../assets';
 const Header = ({ setNavMobile }) => {
 
   return (
-    <header className='py-6'>
+    <header
+      className='py-6'
+      data-aos='fade-down'
+      data-delay='2000'
+      data-duration='900'
+    >
 
       <div className="container mx-auto">
 

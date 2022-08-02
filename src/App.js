@@ -1,10 +1,17 @@
 import { Banner, Experience, Explore, Header, Headsets, NavMobile, Testimonial, Video } from './components';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 const App = () => {
 
   const [navMobile, setNavMobile] = useState(false);
+
+
+  // 🟨🟨🟨 must ==> aos init | either its wont work 🟨🟨🟨
+  useEffect(() => { Aos.init({ duration: 2500, delay: 400 }) }, []);
 
 
   return (

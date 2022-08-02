@@ -8,7 +8,10 @@ const Headsets = () => {
 
       <div className='container mx-auto'>
 
-        <h2 className='text-3xl font-bold mb-6 text-center pb-4'>
+        <h2 className='text-3xl font-bold mb-6 text-center pb-4'
+          data-aos='fade-down'
+          data-aos-offset='300'
+        >
           Mixed Reality Headsets
         </h2>
 
@@ -17,7 +20,12 @@ const Headsets = () => {
           {
             headSet.map(({ title, text, img }) => (
 
-              <div key={title} className='relative mx-auto'>
+              <div key={title}
+                className='relative mx-auto'
+                data-aos='zoom-in'
+                data-aos-offset='300'
+                data-aos-delay='1000'
+              >
 
                 <img src={img} alt="" />
 
@@ -29,7 +37,7 @@ const Headsets = () => {
               </div>
             ))
           }
-
+ 
         </div>
 
       </div>

@@ -12,12 +12,23 @@ const Banner = () => {
 
           {/* 🟨🟨🟨 text */}
           <div className=''>
-            <h1 className='mb-8 font-bold text-3xl lg:text-5xl lg:leading-snug'>Let's Explore <br /> Three-Dimensional Visually</h1>
+            <h1 className='mb-8 font-bold text-3xl lg:text-5xl lg:leading-snug'
+              data-aos='fade-down'
+              data-aos-delay='500'
+            >
+              Let's Explore <br /> Three-Dimensional Visually
+            </h1>
 
-            <p className='font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maiores incidunt! Expedita voluptates sunt impedit?</p>
+            <p className='font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0'
+              data-aos='fade-down'
+              data-aos-delay='600'
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maiores incidunt! Expedita voluptates sunt impedit?</p>
 
             {/* 🟨🟨🟨 btn */}
-            <div className='mb-12 flex items-center justify-around lg:justify-start space-x-4 lg:space-x-8 mx-auto lg:mx-0 max-w-[320px] lg:max-w-none'>
+            <div className='mb-12 flex items-center justify-around lg:justify-start space-x-4 lg:space-x-8 mx-auto lg:mx-0 max-w-[320px] lg:max-w-none'
+              data-aos='fade-down'
+              data-aos-delay='700'
+            >
               <button className='btn'>Get it now</button>
               <a href="/#" className='border-b-2 border-transparent hover:border-white transition ease-out'>Explore Device</a>
             </div>
@@ -29,7 +40,10 @@ const Banner = () => {
 
 
           {/* 🟨🟨🟨 image */}
-          <div className='mx-auto'>
+          <div className='mx-auto'
+            data-aos='fade-up'
+            data-aos-delay='800'
+          >
             <img src={images.bannerImg} alt="BannerImage" />
           </div>
 

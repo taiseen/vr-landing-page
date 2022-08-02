@@ -10,13 +10,16 @@ const Video = () => {
 
 
   return (
-    <section className='bg-[#534686]/30 py-6'>
+    <section className='bg-[#534686]/30 py-8'>
 
       <div className='container mx-auto'>
 
         <div className='text-center flex flex-col lg:flex-row items-center justify-center lg:justify-between'>
 
-          <h3 className='text-2xl font-semibold mb-8 lg:mb-0'>
+          <h3 className='text-2xl font-semibold mb-8 lg:mb-0'
+            data-aos='fade-right'
+            data-aos-offset='350'
+          >
             Awesome experience with virtual reality world
           </h3>
 
@@ -31,8 +34,11 @@ const Video = () => {
           />
 
 
-          <div className='bg-videoBg bg-no-repeat bg-cover w-[270px] h-[180px] grid place-items-center'>
-            
+          <div className='bg-videoBg bg-no-repeat bg-cover w-[270px] h-[180px] grid place-items-center'
+            data-aos='fade-left'
+            data-aos-offset='350'
+          >
+
             <div
               // 🟨🟨🟨 this click event is opening video modal component 
               onClick={() => setIsOpen(!isOpen)}
